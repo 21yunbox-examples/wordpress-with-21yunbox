@@ -23,7 +23,10 @@ const Bio = () => {
     }
   `)
 
-  const avatarUrl = author?.avatar?.url
+  // const avatarUrl = author?.avatar?.url
+  // Disable this because gravatar.com is not accessible in China.
+  // was https://secure.gravatar.com/avatar/2f07bf0645c384fd06c10a32525c1a1a?s=96&d=mm&r=g
+  const avatarUrl = 'https://portrait.gitee.com/uploads/avatars/user/2469/7409436_tobyglei_1604927688.png'
 
   return (
     <div className="bio">

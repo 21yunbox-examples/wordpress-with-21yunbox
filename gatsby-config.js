@@ -27,8 +27,7 @@ module.exports = {
       options: {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
-          process.env.WPGRAPHQL_URL ||
-          `https://wp-demo.21cloudbox.com/graphql`,
+          process.env.WPGRAPHQL_URL,
       },
     },
 
